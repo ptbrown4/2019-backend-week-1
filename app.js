@@ -14,6 +14,8 @@ app.put('/', function(req, res) {
     res.send("<h1>You put something here</h1>");
 });
 
+app.use(express.static('public'));
+
 app.listen(port, function(){
     console.log("Express running on port " + port);
 });

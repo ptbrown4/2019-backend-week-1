@@ -1,0 +1,25 @@
+.jumbotron {
+    background-image: url(../images/christian-wiediger-538650-unsplash.jpg);
+    background-size: 100% auto;
+    background-position: center;
+    color: darkblue;
+}
+.jumbotron h1, .jumbotron h2 {
+    background-color: rgba(255, 255, 232, 0.4)
+}
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/skybackground.jpg);
+    /* background-image: url(../images/skybackground.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
+
+.bio p {
+    background-color: rgba(255, 255, 232, 0.1)
+}
+
+.list-group>li>a:hover {
+    font-size: 18px;
+    transition: all, 0.5s ease-out;
